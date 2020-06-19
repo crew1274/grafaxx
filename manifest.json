@@ -1,0 +1,23 @@
+{
+    "name": "grafana_v2",
+    "version": "0.0.0",
+    "description": "for grafana",
+    "engines": {
+        "arangodb": "^3.0.0"
+    },
+    "author": "171104",
+    "license": "NO",
+    "main": "main.js",
+    "scripts": {
+        "setup": "scripts/setup.js",
+        "teardown": "scripts/teardown.js"
+    },
+    "tests": "test/**/*.js",
+
+    "configuration": {
+        "maps": {
+            "type": "string",
+            "description": "紀錄轉拋連結的資料表名稱"
+        }
+    }
+}
