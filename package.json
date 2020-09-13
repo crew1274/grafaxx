@@ -4,6 +4,6 @@
     "express-async-handler": "^1.1.4",
     "lodash": "^4.17.15",
     "needle": "^2.5.0",
-    "node-fetch": "^2.6.0"
+    "node-fetch": "^2.6.1"
   }
 }
